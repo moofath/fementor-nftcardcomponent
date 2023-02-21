@@ -22,6 +22,7 @@ html {
 body {
   min-width: 100vw;
   min-height: 100vh;
+  padding: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -161,6 +162,8 @@ body {
 .card__author .avatar {
   width: 1.5rem;
   height: 1.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 .card__author p {
